@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+.btn-primary {
+  @apply bg-blue-600 flex justify-center gap-1  my-5 text-white font-semibold  md:py-2 py-0.5 px-2 md:px-4 text-center m-auto lg:text-left rounded cursor-pointer hover:bg-blue-700;
+}
+.btn-secondary {
+  @apply bg-gray-600 flex justify-center gap-1  my-5 text-white font-semibold md:py-2 py-0.5 px-2 md:px-4 rounded cursor-pointer hover:bg-gray-700;
+}
+.btn-outline {
+  @apply border flex justify-center gap-1 border-gray-600 my-5 text-gray-100 font-semibold md:py-2 py-0.5 px-2 md:px-4 rounded  cursor-pointer hover:bg-gray-400/50 hover:text-white;
+}
+body {
+  @apply bg-slate-950;
+}
+.para {
+  @apply text-gray-400 md:leading-7 text-xs sm:text-xl sm:leading-6 md:text-lg;
+}
