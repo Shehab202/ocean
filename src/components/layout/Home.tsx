@@ -11,15 +11,13 @@ import { motion } from "framer-motion";
 const Home = () => {
   return (
     <div>
-        <Navbar />
-
+      <Navbar />
       <div className="h-screen bg-slate-950 ">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.9, ease: "easeOut" }}
         >
-
           <FirstSection />
         </motion.div>
         <SecondSection />

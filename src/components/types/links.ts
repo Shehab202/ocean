@@ -5,7 +5,8 @@ type LinkType = {
 export const links: LinkType = [
   {
     name: "Home",
-    href: "home",},
+    href: "home",
+  },
   {
     name: "features",
     href: "features",
@@ -13,10 +14,6 @@ export const links: LinkType = [
   {
     name: "pricing",
     href: "plans",
-  },
-  {
-    name: "testimonials",
-    href: "testimonials",
   },
   {
     name: "Contact",

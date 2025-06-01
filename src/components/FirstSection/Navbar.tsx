@@ -16,7 +16,7 @@ const Navbar = () => {
                 <a
                   key={index}
                   className="text-white font-bold  hover:text-sky-400  transition-all transition-discrete hover:duration-150 ease-in cursor-pointer"
-                  // href={`#${link.href}`}
+                  href={`#${link.href}`}
                 >
                   {link.name}
                 </a>
