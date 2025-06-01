@@ -7,8 +7,8 @@ export interface CardType {
 }
 export interface priceCardType {
   items: string[];
-  activeTab: any;
+  activeTab: string;
   description: string;
   title: string;
-  price: any
+  price: { monthly: string; annually: string };
 }

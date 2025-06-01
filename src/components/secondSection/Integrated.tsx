@@ -23,7 +23,7 @@ const Integrated = () => {
             engineering teams allows for instant and seamless communication
             among team members. It eliminates the need for external messaging
             platforms, keeping all project-related conversations organized and
-            easily accessible within the dashboard's interface.
+            easily accessible within the dashboard s interface.
           </p>
         </div>
       </motion.div>

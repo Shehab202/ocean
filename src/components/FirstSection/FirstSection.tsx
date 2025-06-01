@@ -1,4 +1,4 @@
-import { CircleArrowRight, MoveRight, X } from "lucide-react";
+import { CircleArrowRight, MoveRight } from "lucide-react";
 import Heading from "../layout/Heading";
 import Buttons from "../layout/Buttons";
 import Image from "next/image";
