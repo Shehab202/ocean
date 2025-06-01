@@ -1,5 +1,4 @@
 import image4 from "../../../public/bg2.png";
-import Buttons from "../layout/Buttons";
 import Image from "next/image";
 import Powerful from "./Powerful";
 import Integrated from "./Integrated";
